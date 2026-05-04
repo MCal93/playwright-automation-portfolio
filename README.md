@@ -15,17 +15,15 @@ Playwright and JavaScript, targeting publicly available demo applications.
 
 ### Login Flow — Sauce Demo (E-commerce)
 `tests/login.spec.js`
-- Valid credentials → successful redirect to inventory
-- Invalid credentials → error message validation
-- Empty fields → field-level validation message
+- Valid credentials → successful redirect to inventory page
+- Invalid credentials → error message displayed
+- Empty fields → field-level validation error
 
 ## How to Run
 
-```bash
 npm install
 npx playwright install
 npx playwright test
-```
 
 ## About
 
